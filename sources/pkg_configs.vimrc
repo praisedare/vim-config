@@ -16,6 +16,8 @@ let g:material_theme_style = 'palenight'
 let g:material_terminal_italics = 1
 let g:airline_theme = 'material'
 
+" Ignore non-project files in ctrlp
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 
 " Fix italics in Vim
 if !has('nvim')

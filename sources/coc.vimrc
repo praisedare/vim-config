@@ -1,3 +1,8 @@
+
+
+
+""" Normal coc configs
+
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
 set encoding=utf-8
@@ -159,3 +164,15 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" This script checks each Coc extension to see if it has already been installed.
+" If it hasn't, it will install it.
+
+" let installed_extensions = coc#list_extensions()
+"
+" let extensions_to_install = [ "coc-json", "coc-css", "coc-html", "coc-tsserver", "coc-phpls", "coc-intelephense", "coc-tailwindcss" ]
+"
+" for ext in extensions_to_install
+"   if !has_key(installed_extensions, ext)
+"     call coc#install_extension(ext)
+"   endif
+" endfor
