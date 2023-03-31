@@ -3,7 +3,10 @@ color lunaperche
 set nu
 set nowrap
 set foldmethod=indent
+set expandtab
 set ts=4 sw=4
+
+set mouse=a
 
 set encoding=UTF-8
 

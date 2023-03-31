@@ -12,7 +12,7 @@ if (has('termguicolors'))
 endif
 
 " let g:material_theme_style = 'default' | 'palenight' | 'ocean' | 'lighter' | 'darker' | 'default-community' | 'palenight-community' | 'ocean-community' | 'lighter-community' | 'darker-community'
-let g:material_theme_style = 'palenight'
+let g:material_theme_style = 'default'
 let g:material_terminal_italics = 1
 let g:airline_theme = 'material'
 
