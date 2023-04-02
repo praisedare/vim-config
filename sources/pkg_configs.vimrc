@@ -18,6 +18,7 @@ let g:airline_theme = 'material'
 
 " Ignore non-project files in ctrlp
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
+let g:ctrlp_custom_ignore = 'node_modules\|.git\|vendor\|DS_Store'
 
 " Fix italics in Vim
 if !has('nvim')

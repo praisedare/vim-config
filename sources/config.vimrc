@@ -1,5 +1,5 @@
 map <C-s> :w<cr>
-color lunaperche
+" color lunaperche
 set nu
 set nowrap
 set foldmethod=indent
