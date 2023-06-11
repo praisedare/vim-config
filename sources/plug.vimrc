@@ -16,6 +16,10 @@ call plug#begin()
 	Plug 'tpope/vim-surround'
 	Plug 'preservim/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
-	Plug 'SirVer/ultisnips'
-	Plug 'mlaursen/vim-react-snippets'
+	" Plug 'SirVer/ultisnips'
+	" Plug 'mlaursen/vim-react-snippets'
+    Plug 'rafi/awesome-vim-colorschemes'
+    Plug 'digitaltoad/vim-pug'
+    Plug 'tpope/vim-unimpaired'
 call plug#end()
+
