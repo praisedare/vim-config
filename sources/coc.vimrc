@@ -164,6 +164,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+let g:coc_global_extensions = [ 'coc-json', 'coc-css', 'coc-html', 'coc-tsserver', 'coc-phpls', 'coc-blade', 'coc-tailwindcss', 'coc-git', '@yaegassy/coc-volar' ]
+
 " This script checks each Coc extension to see if it has already been installed.
 " If it hasn't, it will install it.
 
