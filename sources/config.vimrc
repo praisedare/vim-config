@@ -23,3 +23,8 @@ inoremap <S-Down> <Esc>:m+<CR>
 vnoremap <S-Up> :m '<-2<CR>gv=gv
 vnoremap <S-Down> :m '>+1<CR>gv=gv
 
+if has("gui_running")
+    set guifont=FiraCode\ Nerd\ Font:h12
+    " set guifontwide=Hiragino\ Sans\ GB
+    set linespace=2
+endif

@@ -21,5 +21,6 @@ call plug#begin()
     Plug 'rafi/awesome-vim-colorschemes'
     Plug 'digitaltoad/vim-pug'
     Plug 'tpope/vim-unimpaired'
+    Plug 'jwalton512/vim-blade'
 call plug#end()
 
