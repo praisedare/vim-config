@@ -7,20 +7,34 @@ endif
 
 call plug#begin()
     Plug 'neoclide/coc.nvim'
+
+    " -- Color schemes --
     Plug 'kaicataldo/material.vim'
+    Plug 'rafi/awesome-vim-colorschemes'
+    " Plug 'ajh17/spacegray.vim'
+    Plug 'bastelfreak/spacegray.vim'
+    Plug 'drewtempelmeyer/palenight.vim'
+    Plug 'kyoz/purify'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'dracula/vim'
+
+    " -- Text utils --
     Plug 'tomtom/tcomment_vim'
-    Plug 'vim-airline/vim-airline'
 	Plug 'mattn/emmet-vim'
-	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'tpope/vim-abolish'
+    Plug 'tpope/vim-unimpaired'
+
+    " -- Other functionality --
+    Plug 'vim-airline/vim-airline'
+	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'tpope/vim-surround'
 	Plug 'preservim/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
+
+    " -- Snippets & Language Plugins --
 	" Plug 'SirVer/ultisnips'
 	" Plug 'mlaursen/vim-react-snippets'
-    Plug 'rafi/awesome-vim-colorschemes'
     Plug 'digitaltoad/vim-pug'
-    Plug 'tpope/vim-unimpaired'
     Plug 'jwalton512/vim-blade'
 call plug#end()
 
