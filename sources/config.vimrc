@@ -1,4 +1,5 @@
 map <C-s> :w<cr>
+set hidden
 " color lunaperche
 set nu
 set nowrap

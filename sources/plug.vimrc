@@ -30,10 +30,12 @@ call plug#begin()
 	Plug 'tpope/vim-surround'
 	Plug 'preservim/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
+    Plug 'powerman/vim-plugin-autosess'
 
     " -- Snippets & Language Plugins --
 	" Plug 'SirVer/ultisnips'
 	" Plug 'mlaursen/vim-react-snippets'
+    Plug 'neovimhaskell/haskell-vim'
     Plug 'digitaltoad/vim-pug'
     Plug 'jwalton512/vim-blade'
 call plug#end()
