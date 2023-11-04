@@ -31,7 +31,8 @@ call plug#begin()
     Plug 'tpope/vim-repeat'
 	Plug 'preservim/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
-    Plug 'powerman/vim-plugin-autosess'
+    Plug 'xolox/vim-session'
+    Plug 'xolox/vim-misc'
 
     " -- Snippets & Language Plugins --
 	" Plug 'SirVer/ultisnips'
@@ -40,3 +41,4 @@ call plug#begin()
     Plug 'digitaltoad/vim-pug'
     Plug 'jwalton512/vim-blade'
 call plug#end()
+
