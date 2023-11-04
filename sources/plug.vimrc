@@ -23,11 +23,12 @@ call plug#begin()
 	Plug 'mattn/emmet-vim'
 	Plug 'tpope/vim-abolish'
     Plug 'tpope/vim-unimpaired'
+	Plug 'tpope/vim-surround'
 
     " -- Other functionality --
     Plug 'vim-airline/vim-airline'
 	Plug 'ctrlpvim/ctrlp.vim'
-	Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-repeat'
 	Plug 'preservim/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
     Plug 'powerman/vim-plugin-autosess'
@@ -39,4 +40,3 @@ call plug#begin()
     Plug 'digitaltoad/vim-pug'
     Plug 'jwalton512/vim-blade'
 call plug#end()
-
