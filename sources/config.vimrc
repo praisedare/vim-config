@@ -6,13 +6,15 @@ set nowrap
 set foldmethod=indent
 set expandtab
 set ts=4 sw=4
+set re=2
 
 set mouse=a
 
 set encoding=UTF-8
 
-color material
+" color material
 
+" Maximize current window with \m, equalize with \=
 map <leader>m <C-w>\|<C-w>_
 map <leader>= <C-w>=
 

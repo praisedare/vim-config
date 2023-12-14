@@ -26,7 +26,7 @@ if !has('nvim')
   let &t_ZR="\e[23m"
 endif
 
-" Close all nerdtree windows before saving session
-let g:auto_session_pre_save_cmds = ["tabdo NERDTreeClose"]
-let g:auto_save_enabled = 1
+let g:auto_save_periodic = 'yes'
+let g:session_autoload = 'no'
+let g:session_autosave = 'yes'
 
