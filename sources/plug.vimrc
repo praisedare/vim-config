@@ -24,6 +24,7 @@ call plug#begin()
 	Plug 'tpope/vim-abolish'
     Plug 'tpope/vim-unimpaired'
 	Plug 'tpope/vim-surround'
+    Plug 'mbbill/undotree'
 
     " -- Other functionality --
     Plug 'vim-airline/vim-airline'
@@ -33,6 +34,9 @@ call plug#begin()
 	Plug 'ryanoasis/vim-devicons'
     Plug 'xolox/vim-session'
     Plug 'xolox/vim-misc'
+
+    " Debugger
+    Plug 'puremourning/vimspector'
 
     " -- Snippets & Language Plugins --
 	" Plug 'SirVer/ultisnips'

@@ -18,6 +18,9 @@ set encoding=UTF-8
 map <leader>m <C-w>\|<C-w>_
 map <leader>= <C-w>=
 
+" console.wrap (To Be Continued...)
+"map <leader>c gvyoconsole.log()<ESC>lPl%
+
 " Move single and blocks of line
 nnoremap <S-Up> :m-2<CR>
 nnoremap <S-Down> :m+<CR>
@@ -34,4 +37,5 @@ endif
 
 " Clear all buffers
 command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
+
 
