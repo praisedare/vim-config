@@ -25,6 +25,8 @@ call plug#begin()
     Plug 'tpope/vim-unimpaired'
 	Plug 'tpope/vim-surround'
     Plug 'mbbill/undotree'
+    Plug 'michaeljsmith/vim-indent-object'
+    Plug 'dhruvasagar/vim-table-mode'
 
     " -- Other functionality --
     Plug 'vim-airline/vim-airline'

@@ -36,4 +36,5 @@ nnoremap <F5> :UndotreeToggle<CR>
 let NERDTreeIgnore=['\.o$', '\~$', '\.sw[pon]$']
 let g:NERDTreeHijackNetrw = 0
 
+let g:markdown_recommended_style = 0
 
